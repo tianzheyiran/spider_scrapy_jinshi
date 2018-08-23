@@ -5,7 +5,7 @@ import scrapy
 import re
 import redis
 
-from scrapyProject.jinshi.jinshi.items import JinshiItem
+from jinshi.items import JinshiItem
 
 
 class JsSpider(scrapy.Spider):
